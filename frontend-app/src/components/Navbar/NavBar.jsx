@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import './navbar.css'
 
 
 export const NavBar = () => {
@@ -20,7 +21,8 @@ export const NavBar = () => {
             <Nav.Link href="#action2">Peliculas</Nav.Link>
           </Nav>
           <Nav>
-            <Button variant="outline-success">Register</Button>
+            <Button variant="btn btn-danger navbar-button">Iniciar Sesion</Button>
+            <Button variant="btn btn-danger navbar-button">Register</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

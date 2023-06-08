@@ -14,7 +14,8 @@ export const Carrousel = () => {
           />
           <Carousel.Caption>
             <h3>{movie.title}</h3>
-            <p>Movie description or additional information.</p>
+            <p>{movie.overview}</p>
+            <button type="button" className="btn btn-danger btn__info">More Info</button>
           </Carousel.Caption>
         </Carousel.Item>
       ))}
