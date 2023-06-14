@@ -20,6 +20,7 @@ export const NavBar = () => {
           >
             <Nav.Link ><Link to='/'>Home</Link></Nav.Link>
             <Nav.Link ><Link to='/Peliculas'>Peliculas</Link></Nav.Link>
+            <Nav.Link ><Link to='/Team'>Nosotros</Link></Nav.Link>
           </Nav>
           <Nav>
             <Button variant="btn btn-danger navbar-button">Iniciar Sesion</Button>
