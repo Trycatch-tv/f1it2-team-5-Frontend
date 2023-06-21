@@ -1,7 +1,10 @@
 
+import { NavBar } from '../components'
 import './Login.css'
 export const Register = () => {
   return (
+    <>
+    <NavBar/>
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
@@ -38,5 +41,6 @@ export const Register = () => {
         </div>
       </form>
     </div>
+    </>
   )
 }

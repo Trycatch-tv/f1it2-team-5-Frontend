@@ -18,13 +18,13 @@ export const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link ><Link to='/'>Home</Link></Nav.Link>
-            <Nav.Link ><Link to='/Peliculas'>Peliculas</Link></Nav.Link>
-            <Nav.Link ><Link to='/Team'>Nosotros</Link></Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/Peliculas">Peliculas</Nav.Link>
+            <Nav.Link as={Link} to="/Team">Team</Nav.Link>
           </Nav>
           <Nav>
-            <Button variant="btn btn-danger navbar-button"><Link to="/Login">Iniciar Sesion</Link></Button>
-            <Button variant="btn btn-danger navbar-button">Register</Button>
+            <Button variant="btn btn-danger navbar-button" as={Link} to="/Login">Iniciar Sesion</Button>
+            <Button variant="btn btn-danger navbar-button" as={Link} to="/Register">Register</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
