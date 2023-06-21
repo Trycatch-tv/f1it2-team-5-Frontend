@@ -29,7 +29,7 @@ function Team() {
                 </div>
                 <Row>
                     <Col>
-                    <div className="card" >
+                    <div className="cards" >
                             <div className="head">
                                 <div className="image">
                                     <img src="https://cdn.icon-icons.com/icons2/624/PNG/512/User-80_icon-icons.com_57249.png" alt="..." />
@@ -74,7 +74,7 @@ function Team() {
                         </div>
                     </Col>
                     <Col>
-                    <div className="card" >
+                    <div className="cards" >
                             <div className="head">
                                 <div className="image">
                                     <img src="https://cdn.icon-icons.com/icons2/624/PNG/512/User-80_icon-icons.com_57249.png" alt="..." />
@@ -119,7 +119,7 @@ function Team() {
                         </div>
                     </Col>
                     <Col>
-                    <div className="card" >
+                    <div className="cards" >
                             <div className="head">
                                 <div className="image">
                                     <img src="https://cdn.icon-icons.com/icons2/624/PNG/512/User-80_icon-icons.com_57249.png" alt="..." />
@@ -164,7 +164,7 @@ function Team() {
                         </div>
                     </Col>
                     <Col>
-                    <div className="card" >
+                    <div className="cards" >
                             <div className="head">
                                 <div className="image">
                                     <img src="https://cdn.icon-icons.com/icons2/624/PNG/512/User-80_icon-icons.com_57249.png" alt="..." />

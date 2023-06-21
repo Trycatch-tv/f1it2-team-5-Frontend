@@ -33,7 +33,7 @@ font-family: 'Rajdhani', sans-serif;
    
 }
 
-.card{
+.cards{
     position: relative;
     width: 300px;
     height: 450px;
@@ -44,7 +44,7 @@ font-family: 'Rajdhani', sans-serif;
     margin: 15px 20px 
 }
 
-.card .head{
+.cards .head{
     height: 125px;
     width: 100%;
     position: relative;
@@ -52,11 +52,11 @@ font-family: 'Rajdhani', sans-serif;
     
 
 }
-.card:hover {
+.cards:hover {
     box-shadow: 0 5px 15px blue;
     transform: translateY(-15px);
 }
-.card .head .image{
+.cards .head .image{
     width: 150px;
     height: 150px;
     position: absolute;
@@ -68,21 +68,21 @@ font-family: 'Rajdhani', sans-serif;
     transform: translate(-50%);
 
 }
-.card .head .image img{
+.cards .head .image img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-.card .card-body{
+.cards .card-body{
     padding: 40px 20px 20px 20px;
     text-align: center;
 }
-.card .card-body p {
+.cards .card-body p {
     margin-top: 20px;
     font-size: 15px;
 
 }
-.card .card-body h5{
+.cards .card-body h5{
     margin-top: 20px;
     font-size: 20px;
 }
