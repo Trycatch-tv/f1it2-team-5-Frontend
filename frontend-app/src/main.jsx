@@ -6,6 +6,7 @@ import { Home } from "./pages/Home.jsx";
 import { Login } from "./pages/Login.jsx";
 import { Register } from "./pages/register.jsx";
 import { Team } from "./pages/Team";
+import { DashboardUser } from "./pages/DashboardUser/DashboardUser";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
   { path: "/login", element: <Login /> },
   { path: "/register", element: <Register /> },
   {path: "/team", element: <Team />},
+  {path: "/dashboard", element:<DashboardUser/>},
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
