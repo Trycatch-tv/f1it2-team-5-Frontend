@@ -23,7 +23,7 @@ export const NavBar = () => {
             <Nav.Link ><Link to='/Team'>Nosotros</Link></Nav.Link>
           </Nav>
           <Nav>
-            <Button variant="btn btn-danger navbar-button">Iniciar Sesion</Button>
+            <Button variant="btn btn-danger navbar-button"><Link to="/Login">Iniciar Sesion</Link></Button>
             <Button variant="btn btn-danger navbar-button">Register</Button>
           </Nav>
         </Navbar.Collapse>
